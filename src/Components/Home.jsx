@@ -52,8 +52,8 @@ Productive Apps</h1>
       {apps.title}
     </h2>
     <div className="card-actions justify-between">
-      <div className="badge badge-outline">{apps.downloads}</div>
-      <div className="badge badge-outline">{apps.ratingAvg}</div>
+      <div className="badge badge-outline">⬇️{apps.downloads}</div>
+      <div className="badge badge-outline">⭐️{apps.ratingAvg}</div>
     </div>
   </div>
 </div></Link>)
