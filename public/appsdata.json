@@ -1,0 +1,362 @@
+[
+  {
+    "image": "/demo1.jpg",
+    "title": "Cosmic Explorer VR",
+    "companyName": "NovaTech Studios",
+    "id": 1,
+    "description": "An immersive virtual reality journey through the solar system and distant galaxies. Explore celestial bodies and learn real science.",
+    "size": 850,
+    "reviews": 15241,
+    "ratingAvg": 4.5,
+    "downloads": 560000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 4841 },
+      { "name": "5 star", "count": 7000 }
+    ]
+  },
+  {
+    "image": "/demo2.jpg",
+    "title": "Zen Habit Tracker",
+    "companyName": "Mindful Apps Inc.",
+    "id": 2,
+    "description": "Simple and aesthetic habit tracking app. Build better routines with daily reminders and progress visualization.",
+    "size": 45,
+    "reviews": 5600,
+    "ratingAvg": 4.8,
+    "downloads": 120000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 4000 }
+    ]
+  },
+  {
+    "image": "/demo3.jpg",
+    "title": "Pixel Painter Pro",
+    "companyName": "Creative Suite Co.",
+    "id": 3,
+    "description": "Advanced digital art studio for professional and hobbyist pixel artists. Includes custom brushes and layer support.",
+    "size": 120,
+    "reviews": 980,
+    "ratingAvg": 4.2,
+    "downloads": 25000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 400 }
+    ]
+  },
+  {
+    "image": "/demo4.jpg",
+    "title": "Budget Buddy",
+    "companyName": "Finsense Labs",
+    "id": 4,
+    "description": "Track your spending and manage your finances effortlessly. Set budget goals and receive smart insights.",
+    "size": 60,
+    "reviews": 32000,
+    "ratingAvg": 4.6,
+    "downloads": 950000,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 7000 },
+      { "name": "5 star", "count": 20000 }
+    ]
+  },
+  {
+    "image": "/demo5.jpg",
+    "title": "Retro Runner 3D",
+    "companyName": "Gamer's Galaxy",
+    "id": 5,
+    "description": "An endless runner with a nostalgic 90s aesthetic. Fast-paced action and challenging levels.",
+    "size": 350,
+    "reviews": 75000,
+    "ratingAvg": 3.9,
+    "downloads": 5200000,
+    "ratings": [
+      { "name": "1 star", "count": 15000 },
+      { "name": "2 star", "count": 8000 },
+      { "name": "3 star", "count": 12000 },
+      { "name": "4 star", "count": 20000 },
+      { "name": "5 star", "count": 20000 }
+    ]
+  },
+  {
+    "image": "/demo6.jpg",
+    "title": "World Atlas Quiz",
+    "companyName": "EduPlay Games",
+    "id": 6,
+    "description": "Test your geography knowledge with quizzes on capitals, flags, and famous landmarks from around the globe.",
+    "size": 90,
+    "reviews": 1200,
+    "ratingAvg": 4.7,
+    "downloads": 85000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 600 }
+    ]
+  },
+  {
+    "image": "/demo1.jpg",
+    "title": "SecureVault Password Manager",
+    "companyName": "Cypher Solutions",
+    "id": 7,
+    "description": "Generate, store, and auto-fill strong passwords securely. Uses AES-256 encryption and biometric login.",
+    "size": 30,
+    "reviews": 4500,
+    "ratingAvg": 4.9,
+    "downloads": 300000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 50 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 3900 }
+    ]
+  },
+  {
+    "image": "/demo2.jpg",
+    "title": "Recipe Remix",
+    "companyName": "Culinary Coders",
+    "id": 8,
+    "description": "Find recipes based on ingredients you already have. Over 1 million recipes and meal planning features.",
+    "size": 180,
+    "reviews": 21000,
+    "ratingAvg": 4.4,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 3500 },
+      { "name": "4 star", "count": 6000 },
+      { "name": "5 star", "count": 10000 }
+    ]
+  },
+  {
+    "image": "/demo3.jpg",
+    "title": "Aura Weather",
+    "companyName": "Skyline Info",
+    "id": 9,
+    "description": "Accurate 7-day forecasts with hyper-local radar. Elegant interface and severe weather alerts.",
+    "size": 55,
+    "reviews": 89000,
+    "ratingAvg": 4.1,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 10000 },
+      { "name": "2 star", "count": 8000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 26000 },
+      { "name": "5 star", "count": 30000 }
+    ]
+  },
+  {
+    "image": "/demo4.jpg",
+    "title": "Language Leap: Spanish",
+    "companyName": "Global Learnings",
+    "id": 10,
+    "description": "Learn Spanish with interactive lessons and native speaker audio. Gamified learning path from beginner to advanced.",
+    "size": 550,
+    "reviews": 45000,
+    "ratingAvg": 4.7,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 15000 },
+      { "name": "5 star", "count": 23500 }
+    ]
+  },
+  {
+    "image": "/demo5.jpg",
+    "title": "TaskMaster Pro",
+    "companyName": "Productivity Hub",
+    "id": 11,
+    "description": "The ultimate to-do list and project management tool. Syncs across all devices and supports team collaboration.",
+    "size": 75,
+    "reviews": 1500,
+    "ratingAvg": 4.3,
+    "downloads": 100000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 550 }
+    ]
+  },
+  {
+    "image": "/demo6.jpg",
+    "title": "FitFusion Workouts",
+    "companyName": "HealthStream Digital",
+    "id": 12,
+    "description": "Personalized home workout plans with video guides. Track your fitness progress and join challenges.",
+    "size": 220,
+    "reviews": 35000,
+    "ratingAvg": 4.5,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 17500 }
+    ]
+  },
+  {
+    "image": "/demo1.jpg",
+    "title": "QuickNote Scanner",
+    "companyName": "DocuTools Inc.",
+    "id": 13,
+    "description": "Turn your phone into a portable scanner. Convert documents to PDF and share instantly. Excellent OCR feature.",
+    "size": 95,
+    "reviews": 12000,
+    "ratingAvg": 4.0,
+    "downloads": 750000,
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 3500 },
+      { "name": "5 star", "count": 3800 }
+    ]
+  },
+  {
+    "image": "/demo2.jpg",
+    "title": "Galactic Siege RPG",
+    "companyName": "Epic Quest Games",
+    "id": 14,
+    "description": "A massive multiplayer online role-playing game in a sci-fi universe. Collect gear and battle other players.",
+    "size": 1500,
+    "reviews": 120000,
+    "ratingAvg": 4.3,
+    "downloads": 9000000,
+    "ratings": [
+      { "name": "1 star", "count": 15000 },
+      { "name": "2 star", "count": 10000 },
+      { "name": "3 star", "count": 25000 },
+      { "name": "4 star", "count": 35000 },
+      { "name": "5 star", "count": 35000 }
+    ]
+  },
+  {
+    "image": "/demo3.jpg",
+    "title": "Meditation Oasis",
+    "companyName": "Calm Minds Collective",
+    "id": 15,
+    "description": "Guided meditations for sleep, stress, and focus. Includes ambient sounds and daily mindfulness sessions.",
+    "size": 150,
+    "reviews": 5500,
+    "ratingAvg": 4.9,
+    "downloads": 400000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 3800 }
+    ]
+  },
+  {
+    "image": "/demo4.jpg",
+    "title": "Local Eats Finder",
+    "companyName": "Community Connect",
+    "id": 16,
+    "description": "Discover top-rated local restaurants and cafes near you. Check menus, reviews, and make reservations.",
+    "size": 80,
+    "reviews": 9000,
+    "ratingAvg": 3.8,
+    "downloads": 600000,
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 2000 }
+    ]
+  },
+  {
+    "image": "/demo5.jpg",
+    "title": "PhotoFilter Vintage",
+    "companyName": "Lens Legacy",
+    "id": 17,
+    "description": "Apply retro, vintage, and classic film filters to your photos. Advanced editing tools for a nostalgic look.",
+    "size": 70,
+    "reviews": 45000,
+    "ratingAvg": 4.6,
+    "downloads": 3500000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 15000 },
+      { "name": "5 star", "count": 24500 }
+    ]
+  },
+  {
+    "image": "/demo6.jpg",
+    "title": "Code Academy",
+    "companyName": "Dev Path Corp.",
+    "id": 18,
+    "description": "Learn to code in Python, JavaScript, and more with interactive lessons and a mobile IDE. Perfect for beginners.",
+    "size": 300,
+    "reviews": 1800,
+    "ratingAvg": 4.7,
+    "downloads": 110000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 550 },
+      { "name": "5 star", "count": 1100 }
+    ]
+  },
+  {
+    "image": "/demo1.jpg",
+    "title": "City Builders Sim",
+    "companyName": "Urban Dreams Studios",
+    "id": 19,
+    "description": "Design and manage your own city. Handle infrastructure, taxes, and keep your citizens happy in this strategy sim.",
+    "size": 650,
+    "reviews": 28000,
+    "ratingAvg": 4.2,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 2500 },
+      { "name": "3 star", "count": 4500 },
+      { "name": "4 star", "count": 9000 },
+      { "name": "5 star", "count": 10000 }
+    ]
+  },
+  {
+    "image": "/demo2.jpg",
+    "title": "Simple eBook Reader",
+    "companyName": "Digital Library Solutions",
+    "id": 20,
+    "description": "An elegant, distraction-free reader for all your EPUB and PDF files. Customizable fonts and themes.",
+    "size": 40,
+    "reviews": 600,
+    "ratingAvg": 4.9,
+    "downloads": 50000,
+    "ratings": [
+      { "name": "1 star", "count": 5 },
+      { "name": "2 star", "count": 5 },
+      { "name": "3 star", "count": 10 },
+      { "name": "4 star", "count": 180 },
+      { "name": "5 star", "count": 400 }
+    ]
+  }
+]
