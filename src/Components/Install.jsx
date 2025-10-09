@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useOutletContext } from 'react-router';
+import { toast } from 'react-toastify';
 
 const Install = () => {
     let {soft,setSoft}=useOutletContext();
@@ -72,7 +73,7 @@ const Install = () => {
                                     onClick={() =>{           
                                       let updatedSoft = soft.filter(ap => ap.id !== app.id);
                                       setSoft(updatedSoft);
-                                      alert(`${app.title} has been uninstalled.`);      
+                                      toast.success(`${app.title} has been uninstalled.`);      
                                     } } 
                                     className='btn btn-sm btn-success bg-green-500 hover:bg-green-600 text-white border-none'
                                 >

@@ -1,20 +1,22 @@
-import { StrictMode } from 'react'
+import { lazy, StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import { createBrowserRouter } from "react-router";
 import { RouterProvider } from "react-router/dom";
 import Root from './Components/Root.jsx';
-import Home from './Components/Home.jsx';
-import Apps from './Components/Apps.jsx';
-import Install from './Components/Install.jsx';
-import AppsD from './Components/AppsD.jsx';
+import Error from './Components/Error.jsx';
 
+const Home = lazy(() => import('./Components/Home.jsx'));
+const Apps = lazy(() => import('./Components/Apps.jsx'));
+const Install = lazy(() => import('./Components/Install.jsx'));
+const AppsD = lazy(() => import('./Components/AppsD.jsx'));
 
 const router = createBrowserRouter([
   {
     path: "/",
     Component:Root,
+    errorElement:<Error></Error>,
     children:[
       {index:true,loader:()=>fetch('/homedata.json'),Component:Home},
       {path:"/apps",loader:()=>fetch('/appsdata.json'),Component:Apps},
@@ -23,6 +25,12 @@ const router = createBrowserRouter([
        let apps=await res.json();
        let appId=parseInt(params.appsId);
        let app=apps.find(a=>a.id===appId);
+
+                 if (!app) {
+            throw new Response(`App with ID ${params.appsId} not found.`, { status: 404 });
+          }
+          
+
        return app;
       }
       ,Component:AppsD},
@@ -31,5 +39,7 @@ const router = createBrowserRouter([
   },
 ]);
 createRoot(document.getElementById('root')).render(
-  <RouterProvider router={router} />,
+  <StrictMode>  <RouterProvider router={router} />
+  </StrictMode>
+
 )

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useLoaderData, useOutletContext } from 'react-router';
+import { toast } from 'react-toastify';
 import {  BarChart,Bar, XAxis, YAxis, Tooltip, CartesianGrid, ResponsiveContainer } from 'recharts'
 
 const AppsD = () => {
@@ -39,7 +40,7 @@ const AppsD = () => {
 </div>
 <button disabled={select} onClick={()=>{
   setSelect(true)
-  alert('Installed')
+  toast.success('Installed')
   setSoft([...soft,apps])
 }} className='btn btn-info w-50'>
   {select?'Installed':`Install Now (${apps.size} MB)`}</button>
@@ -51,10 +52,10 @@ const AppsD = () => {
   <ResponsiveContainer width="100%" height="100%">
     <BarChart data={apps.ratings} layout="vertical">
     <XAxis  type="number" />
-    <YAxis  dataKey="name" type="category" stroke="#8884d8"/>
+    <YAxis  dataKey="name" type="category"/>
     <Tooltip />
-    <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
-    <Bar dataKey="count" fill="#8884d8" barSize={30} />
+    <CartesianGrid  />
+    <Bar dataKey="count" fill="gold" barSize={30} />
   </BarChart>
 </ResponsiveContainer>
 </div>
