@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useLoaderData, useOutletContext } from 'react-router';
-import {  BarChart,Bar, XAxis, YAxis, Tooltip, CartesianGrid } from 'recharts'
+import {  BarChart,Bar, XAxis, YAxis, Tooltip, CartesianGrid, ResponsiveContainer } from 'recharts'
 
 const AppsD = () => {
   let {soft,setSoft}=useOutletContext();
@@ -8,7 +8,7 @@ const AppsD = () => {
     let [select,setSelect]=useState(() => soft.some(installedApp => installedApp.id === apps.id));
     return (
         <div className='m-10'>
-<div className="card card-side bg-base-100 shadow-sm">
+<div className="card card-side bg-base-100 shadow-sm flex flex-col sm:flex-row">
   <figure>
     <img
       src={apps.image}
@@ -17,24 +17,24 @@ const AppsD = () => {
   <div className="card-body">
     <h2 className="card-title">{apps.title}</h2>
     <p><small>Developed by</small> {apps.companyName}</p>
-<div className="stats">
+<div className="stats ">
   <div className="stat">
     <img src="/icon-downloads.png" alt="" />
     <div className="stat-title">Downloads</div>
-    <div className="stat-value text-primary">{apps.downloads}</div>
+    <div className="stat-value text-primary text-xl sm:text-3xl">{apps.downloads}</div>
   </div>
 
   <div className="stat">
     <img src="/icon-ratings.png" alt="" />
-    <div className="stat-title">Average Ratings</div>
-    <div className="stat-value text-secondary">{apps.ratingAvg}</div>
+    <div className="stat-title">Avg Ratings</div>
+    <div className="stat-value text-secondary text-xl sm:text-3xl">{apps.ratingAvg}</div>
   </div>
 
   <div className="stat">
        
          <img src="/icon-review.png" />
-    <div className="stat-title">Total Reviews</div>    
-    <div className="stat-value">{apps.reviews}</div>
+    <div className="stat-title">Reviews</div>    
+    <div className="stat-value text-xl sm:text-3xl">{apps.reviews}</div>
   </div>
 </div>
 <button disabled={select} onClick={()=>{
@@ -47,15 +47,17 @@ const AppsD = () => {
 </div>
 <div>
     <h3>Ratings</h3>
-    <BarChart width={600} height={300} data={apps.ratings} layout="vertical">
+    <div style={{ width: '100%', height: 300 }}>
+  <ResponsiveContainer width="100%" height="100%">
+    <BarChart data={apps.ratings} layout="vertical">
     <XAxis  type="number" />
     <YAxis  dataKey="name" type="category" stroke="#8884d8"/>
     <Tooltip />
     <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
     <Bar dataKey="count" fill="#8884d8" barSize={30} />
   </BarChart>
-
-
+</ResponsiveContainer>
+</div>
 </div>
 <div>
     <h3>Description</h3>

@@ -10,7 +10,7 @@ const Apps = () => {
     return (
         <div className='p-5'>
 
-                    <div className="text-center py-10 border-b border-dashed border-blue-200">
+                    <div className="text-center py-10  border-blue-200">
                 <h1 className="text-4xl font-bold text-gray-800">Our All Applications</h1>
                 <p className="text-gray-500 mt-2">Explore All Apps on the Market developed by us. We code for Millions</p>
             </div>

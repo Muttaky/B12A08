@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <div>
-            <footer className="footer flex justify-between sm:footer-horizontal bg-neutral text-neutral-content p-10">
+            <footer className="footer flex justify-between sm:footer-horizontal bg-blue-400 text-neutral-content p-10">
   <aside>
     <p>
       HERO.IO
@@ -48,7 +48,7 @@ const Footer = () => {
     </div>
   </nav>
 </footer>
-<footer className="footer sm:footer-horizontal footer-center bg-neutral text-neutral-content p-4">
+<footer className="footer sm:footer-horizontal footer-center bg-blue-400 text-neutral-content p-4">
   <aside>
     <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
   </aside>
