@@ -6,7 +6,7 @@ const Home = () => {
     let appsData=useLoaderData();
     return (
         <div className='m-10'>
-            <div className="bg-base-200 text-center">
+            <div className=" text-center">
   <div>
     <div className='m-10'>
       <h1 className="text-5xl font-bold">We Build <br /> <span className='text-blue-400'>Productive</span>  Apps</h1>
@@ -56,7 +56,7 @@ const Home = () => {
 
 <div className='grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 p-5'>
     {
-        appsData.map(apps=>  <Link to={`/apps/${apps.id}`}>  <div className="card bg-base-100 w-96 shadow-sm mx-auto">
+        appsData.map(apps=>  <Link to={`/apps/${apps.id}`}>  <div className="card bg-base-100  w-72 pt-5 shadow-sm mx-auto">
   <figure>
     <img
       src={apps.image}
@@ -67,8 +67,8 @@ const Home = () => {
       {apps.title}
     </h2>
     <div className="card-actions justify-between">
-      <div className="badge badge-outline">⬇️{apps.downloads}</div>
-      <div className="badge badge-outline">⭐️{apps.ratingAvg}</div>
+      <div className="badge badge-soft">⬇️{apps.downloads}</div>
+      <div className="badge badge-soft">⭐️{apps.ratingAvg}</div>
     </div>
   </div>
 </div></Link>)

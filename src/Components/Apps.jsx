@@ -44,7 +44,7 @@ const Apps = () => {
             <div className='grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 p-5'>
     {
         filApps.map(app=>  <Link key={app.id} to={`/apps/${app.id}`}>
-        <div className="card bg-base-100 w-96 shadow-sm mx-auto">
+        <div className="card bg-base-100 w-72 pt-5 shadow-sm mx-auto">
   <figure>
     <img
       src={app.image}
@@ -55,8 +55,8 @@ const Apps = () => {
       {app.title}
     </h2>
     <div className="card-actions justify-between">
-      <div className="badge badge-outline">⬇️{app.downloads}</div>
-      <div className="badge badge-outline">⭐️{app.ratingAvg}</div>
+      <div className="badge badge-soft">⬇️{app.downloads}</div>
+      <div className="badge badge-soft">⭐️{app.ratingAvg}</div>
     </div>
   </div>
 </div> </Link>)
