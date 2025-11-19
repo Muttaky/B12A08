@@ -1,6 +1,6 @@
-# Summer Sale – Landing Page
+# HERO.IO web app
 
-A stylish and responsive Summer Sale landing page built with HTML, CSS, and JavaScript.  
+At HERO.IO , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.Our goal is to turn your ideas into digital experiences that truly make an impact.A stylish and responsive web app built with HTML, CSS, and JavaScript.  
 Includes attractive UI, product display, and smooth interactions.
 
 ---
@@ -37,3 +37,4 @@ _No external libraries — purely frontend._
 ---
 
 ## 🧑‍💻 Run Locally
+use git clone
